@@ -4,6 +4,7 @@ metadata:
   name: complete-prodcution-e2e-deployment
 spec:
   selector:
+    replica: 3
     matchLabels:
       app: complete-prodcution-e2e-app
   template:
