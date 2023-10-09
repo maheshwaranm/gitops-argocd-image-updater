@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: complete-prodcution-e2e-deployment
 spec:
-  replica: 3
+  replicas: 3
   selector:
     matchLabels:
       app: complete-prodcution-e2e-app
